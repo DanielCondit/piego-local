@@ -1,0 +1,44 @@
+.contentWrap {
+    overflow-y: scroll;
+    width: 60vw;
+}
+
+.container {
+    padding: 20px;
+    .col-sm {
+        position: relative;
+        margin-left: 25px;
+        img {
+            max-height: 250px;
+            width: auto;
+        }
+        .card-title {
+            font-size: 1.4em;
+            text-align: center;
+        }
+        .card-text {
+            font-size: .75em;
+            text-align: center;
+        }
+        .card-body {
+            text-align: left;
+            a {
+                position: absolute;
+                left: -35px;
+                top: 0;
+                z-index: 5;
+            }
+            .fa-cart-plus {
+                color: #61120E;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contentWrap {
+        overflow-y: scroll;
+        width: 90vw;
+    }
+}

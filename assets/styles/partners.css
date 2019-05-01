@@ -1,0 +1,32 @@
+.contentWrap {
+  overflow-y: scroll;
+  width: 60vw; }
+  .contentWrap .slideWrap {
+    width: 100%;
+    margin-top: 25px;
+    max-height: 500px; }
+    .contentWrap .slideWrap .mySlides img {
+      max-height: 350px;
+      max-width: 100%; }
+  .contentWrap .socialMedia {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px; }
+    .contentWrap .socialMedia .fa-external-link-square-alt,
+    .contentWrap .socialMedia .fa-facebook {
+      color: #651717; }
+
+/*---- TABLET ----*/
+@media only screen and (max-width: 991px) {
+  .contentWrap {
+    z-index: -1; }
+    .contentWrap .socialMedia {
+      width: 100%;
+      margin: 0; } }
+/*---- MOBILE----*/
+@media only screen and (max-width: 500px) {
+  .contentWrap {
+    overflow-y: scroll;
+    width: 90vw; } }
+
+/*# sourceMappingURL=partners.css.map */

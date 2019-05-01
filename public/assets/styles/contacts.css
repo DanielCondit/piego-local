@@ -1,0 +1,32 @@
+.contentWrap {
+  overflow-y: scroll;
+  width: 60vw; }
+
+h2 {
+  color: #61120E; }
+
+*[itemprop="address"],
+*[itemprop="description"] {
+  font-size: .75em; }
+
+#wuf-adv {
+  opacity: 0; }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: auto;
+  width: 100% !important; }
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: auto;
+  width: 100%; }
+
+@media only screen and (max-width: 500px) {
+  .contentWrap {
+    overflow-y: scroll;
+    width: 90vw; } }
+
+/*# sourceMappingURL=contacts.css.map */

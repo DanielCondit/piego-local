@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <title>PieGoLocal</title>
+  <link rel="shortcut icon" href="assets/images/logo_fav_RXF_icon.ico" type="image/x-icon">
+  <meta name="Description" content="Local Pizza, Local Students">
+  <meta name="Authors" content="Mariam Bouzihay, Abby Buck, Daniel Condit, Brittany Fugate">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+
+  <!--Page Styling-->
+
+  <link rel="stylesheet" href="assets/styles/global_style.css">
+
+  <!--External Plugin Styles-->
+
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--JavaScript Libraries-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.js"></script>
+  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="N2RjMWI4ZWYtZDU2Mi00MGRjLWFkM2MtMGFiNzA0YjA1YjMyNjM2OTAyMzUzNTIyMTg3NzUz" id="snipcart"></script>
+
+</head>
+
+<body>
+
+  <!--Background Div-->
+
+  <div class="background"></div>
+
+  <!--Bage Content-->
+
+  <div id="viewWrap">
+
+    <!--Below is the full navigation bar content-->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav fullNav scriptLink">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link" id="menuContainer" href="menu.html">Menu</a>
+          <a class="nav-item nav-link" id="partnersContainer" href="partners.html">Partners</a>
+          <a class="nav-item nav-link" id="contactContainer" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    
+    <img src="assets/images/PieGo-logo.svg" alt="logo" class="smallLogo">
+    
+    <!--Below is the shopping cart content-->
+    <a href="#" class="snipcart-checkout">
+      <div class="snipcart-summary">
+        <span class="snipcart-total-items"></span>
+        <i class="fas fa-shopping-cart fa-4x"></i>
+        <br>
+        <span class="snipcart-total-price"></span>
+      </div>
+    </a>
+
+    <!--Bellow is the dynamic div that imports our different content views-->
+
+    <div class="contentWrap scriptLink">
+      <img src="assets/images/main-logo.svg" alt="PieGo Logo" class="homeLogo">
+      <a id="orderContainer" href="menu.html">Order Now</a>
+    </div>
+
+
+
+  </div>
+  
+  <!-- Popper.js, then Bootstrap JS -->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.js"></script>
+  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="N2RjMWI4ZWYtZDU2Mi00MGRjLWFkM2MtMGFiNzA0YjA1YjMyNjM2OTAyMzUzNTIyMTg3NzUz" id="snipcart"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!--Custom Javascript Imports-->
+
+  <script src="assets/scripts/global_script.js"></script>
+  
+</body>
+
+</html>

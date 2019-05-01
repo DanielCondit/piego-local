@@ -1,0 +1,201 @@
+/*Background and Fullpage Styling*/
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  body {
+    position: absolute;
+    z-index: -1;
+    background: url(../images/Op65.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=103457), auto;
+  }
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/*Navigation Bar Styling*/
+
+.navbar {
+  position: fixed;
+  z-index: 11;
+  list-style-type: none;
+  margin: 10px 0 0 10px;
+  padding: 0;
+  overflow: hidden;
+  a:not(:first-child) {
+    border-left: 3px solid #651717;
+  }
+  a {
+    display: block;
+    color: #651717 !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+  a:hover {
+    background: rgba(140, 98, 68, 0.65);
+    border-radius: 15px;
+  }
+  .active {
+    background: rgba(140, 98, 68, 0.65);
+    border-radius: 15px;
+  }
+}
+
+.smallLogo {
+  position: fixed;
+  display: none;
+  top: 0;
+  width: 350px;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*Dynamic Content Div Styles*/
+
+.contentWrap {
+  margin-top: 25px;
+  position: absolute;
+  z-index: 10;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 1.5em;
+  width: 50vw;
+  max-height: 75%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: none;
+  .homeLogo {
+    margin: 0 auto;
+  }
+}
+
+/*Scroll Bar Styling*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #651717;
+  border-radius: 10px;
+}
+
+/*Shopping Cart Styling & Shopping Cart Content Styles*/
+
+.snipcart-summary {
+  position: fixed;
+  float: right;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+  color: #651717;
+  font-family: 'Reem Kufi', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  .snipcart-total-items {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    left: 42%;
+    top: 14%;
+    width: 25px;
+    text-align: center;
+    border-radius: 100px;
+    .fa-shopping-cart {
+      color: #651717;
+    }
+  }
+}
+
+.snip-footer,
+.snip-header {
+  background: #651717 !important;
+  .snip-header__title {
+    font-family: 'Reem Kufi', sans-serif !important;
+  }
+  .js-real-link,
+  .snip-footer__highlight {
+    color: #651717 !important;
+  }
+  h2 a {
+    color: #61120E;
+    background: rgba(141, 98, 68, 0.65);
+    text-align: center;
+  }
+
+  h2 a:hover {
+    background: rgba(141, 98, 68, 0.87);
+  }
+}
+
+/* Order Now Button */
+
+#orderContainer {
+  background: rgba(140, 98, 68, 0.75);
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: #61120E;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#orderContainer:hover {
+  color: #61120E;
+  text-decoration: none;
+  background: rgba(140, 98, 68, 0.65);
+}
+
+
+
+/*Mobile Styles and smaller screens*/
+
+@media only screen and (max-width: 991px) {
+  .contentWrap {
+    width: 90vw;
+  }
+  .navbar a:not(:first-child) {
+    border-left: 0px;
+  }
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .contentWrap {
+    width: 90vw;
+    
+    .homeLogo {}
+  }
+  ::-webkit-scrollbar {
+    width: 20px;
+    display: none;
+  }
+  .smallLogo {
+    margin: 0 auto;
+    max-width: 500px;
+
+  }
+}

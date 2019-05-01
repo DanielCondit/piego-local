@@ -1,0 +1,34 @@
+.contentWrap {
+  overflow-y: scroll;
+  width: 60vw; }
+
+.container {
+  padding: 20px; }
+  .container .col-sm {
+    position: relative;
+    margin-left: 25px; }
+    .container .col-sm img {
+      max-height: 250px;
+      width: auto; }
+    .container .col-sm .card-title {
+      font-size: 1.4em;
+      text-align: center; }
+    .container .col-sm .card-text {
+      font-size: .75em;
+      text-align: center; }
+    .container .col-sm .card-body {
+      text-align: left; }
+      .container .col-sm .card-body a {
+        position: absolute;
+        left: -35px;
+        top: 0;
+        z-index: 5; }
+      .container .col-sm .card-body .fa-cart-plus {
+        color: #61120E; }
+
+@media only screen and (max-width: 500px) {
+  .contentWrap {
+    overflow-y: scroll;
+    width: 90vw; } }
+
+/*# sourceMappingURL=menu.css.map */
